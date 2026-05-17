@@ -460,7 +460,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingTop: 12,
     paddingBottom: Platform.OS === 'ios' ? 40 : 28,
-    // Limita a altura para não cobrir toda a tela
     maxHeight: '90%',
   },
   modalHandle: {
